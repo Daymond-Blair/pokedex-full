@@ -23,7 +23,6 @@ $(function() {
 					`${typeTwo.charAt(0).toUpperCase() + typeTwo.slice(1)}`
 				);
 
-				typeTwo = undefined;
 			} else {
 				var typeOne = data.types[0].type.name;
 				var typeTwo = '';
